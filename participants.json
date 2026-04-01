@@ -5,7 +5,7 @@
         "Levels": {
             "1": "Bipolar",
             "2": "Schizophrenia/Schizoaffective"
-          }
+        }
     },
     "gender": {
         "LongName": "Gender",
@@ -13,6 +13,26 @@
         "Levels": {
             "M": "Male",
             "F": "Female"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": "Sex"
+            },
+            "VariableType": "Categorical",
+            "Levels": {
+                "F": {
+                    "TermURL": "snomed:248152002",
+                    "Label": "Female"
+                },
+                "M": {
+                    "TermURL": "snomed:248153007",
+                    "Label": "Male"
+                }
+            },
+            "MissingValues": [
+                " "
+            ]
         }
     },
     "handedness": {
@@ -52,7 +72,7 @@
         "Levels": {
             "0": "No",
             "1": "Yes"
-          }
+        }
     },
     "olanz_equiv": {
         "LongName": "OlanzapineEquivalentValues",
@@ -88,5 +108,45 @@
         "LongName": "AverageScorePerItemOnTheSLOF",
         "Description": "Average score per item on the specific levels of functioning scale",
         "Units": "None"
+    },
+    "participant_id": {
+        "Description": "",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Participant ID"
+            },
+            "VariableType": "Identifier"
+        }
+    },
+    "age": {
+        "Description": ""
+    },
+    "educ_parent_avg": {
+        "Description": ""
+    },
+    "PANSS_pos_av": {
+        "Description": ""
+    },
+    "PANSS_neg_av": {
+        "Description": ""
+    },
+    "PANSS_disorg_av": {
+        "Description": ""
+    },
+    "panss_exc_av": {
+        "Description": ""
+    },
+    "panss_dep_av": {
+        "Description": ""
+    },
+    "panns_total_sum": {
+        "Description": ""
+    },
+    "cdss_total": {
+        "Description": ""
+    },
+    "ymrs_total": {
+        "Description": ""
     }
 }
